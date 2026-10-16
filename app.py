@@ -45,7 +45,7 @@ def load(sheet, cols):
 if 'bins' not in st.session_state:
     st.session_state.bins = load('Bins', ['Bin ID', 'Name', 'Zone', 'Category', 'Capacity (L)', 'Fill (L)', 'Status'])
     if st.session_state.bins.empty:
-        st.session_state.bins = pd.DataFrame([['BIN-001', 'Library North', 'Library', 'Dry', 120, 48, 'Online'], ['BIN-002', 'Cafeteria Wet', 'Cafeteria', 'Wet', 160, 103, 'Online'], ['BIN-003', 'Science E-waste', 'Science', 'E-waste', 80, 31, 'Online'], ['BIN-004', 'East Gate', 'East Gate', 'Dry', 100, 74, 'Online']], columns=['Bin ID', 'Name', 'Zone', 'Category', 'Capacity (L)', 'Fill (L)', 'Status'])
+        st.session_state.bins = pd.DataFrame([], columns=['Bin ID', 'Name', 'Zone', 'Category', 'Capacity (L)', 'Fill (L)', 'Status'])
 LOG_COLUMNS = ['Timestamp', 'Object', 'Category', 'Volume (L)', 'Bin ID', 'Bin name', 'Guidance', 'Material labels', 'Hazard status', 'Record ID']
 if 'logs' not in st.session_state:
     st.session_state.logs = load('Disposals', LOG_COLUMNS)
