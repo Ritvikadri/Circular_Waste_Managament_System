@@ -3,6 +3,11 @@
 
 # ♻️ Circular Smart Recycling
 
+🚀 LIVE DEPLOYMENT
+**THIS PROJECT IS DEPLOYED ON STREAMLIT: https://circularai.streamlit.app/**
+Open the live app here: https://circularai.streamlit.app/
+
+
 ## A simple guide for everyday users
 
 Circular Smart Recycling is a web app for managing waste bins in a campus, college, office, or other building. It helps people record waste disposals, check bin capacity, review disposal history, schedule pickups or maintenance, and use AI tools for waste-sorting guidance and reports.
