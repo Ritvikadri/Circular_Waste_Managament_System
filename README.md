@@ -5,7 +5,7 @@
 
 🚀 LIVE DEPLOYMENT
 **THIS PROJECT IS DEPLOYED ON STREAMLIT: https://circularai.streamlit.app/**
-Open the live app here: https://circularai.streamlit.app/
+Open the live app and use it for waste management.
 
 
 ## A simple guide for everyday users
